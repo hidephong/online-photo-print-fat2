@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="jquery.js">
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(e) {
+
+        $('.art-vmenu a').each(function() {
+            alert($(this).attr('href'));
+            //alert(e2);
+            if (location.pathname.indexOf($(this).attr('href')) > -1) {
+                $(this).addClass("active");
+
+            }
+        });
+
+
+    });
+</script>
+
+<style type="text/css">
+.active
+{
+    color:Red;
+}
+.art-vmenu
+{
+    color:blue;
+}
+
+</style>
+<title>Untitled Document</title>
+
+
+
+</head>
+
+<body>
+<div class="art-vmenu">
+<a href="123.html">ABC</a>
+<a href="test.htm">ABC</a>
+<a href="abc.html">ABC</a>
+<a href="/acvc/test.html">ABC</a>
+<a href="abc.html">ABC</a>
+
+
+
+
+</div>
+
+</body>
+</html>
