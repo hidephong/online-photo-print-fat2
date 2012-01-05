@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Menu xmlns="www.aptech.ac.vn" >
+  <linkNode url="Default.aspx" title="Home"  description="Homepage"/>
+  <linkNode url="CustomerLogin.aspx" title="News"  description="" />
+  <linkNode url="CustomerRegister.aspx" title="Categories"  description="" />
+  <linkNode url="CustomerRecoveryPassword.aspx" title="Archive"  description="" />
+  <linkNode url="CustomerRecoveryPassword.aspx" title="Forum"  description="" />
+  <linkNode url="CustomerRecoveryPassword.aspx" title="About"  description="" />
+  <linkNode url="CustomerRecoveryPassword.aspx" title="Contact"  description="" />
+</Menu>
